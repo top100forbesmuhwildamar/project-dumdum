@@ -15,9 +15,7 @@ body {
 		background-position: 0% 50%;
 	}
 }
-.p {
-    font-family: 'Lato', sans-serif;
-}
+
 .kotak-title {
     margin: auto;   
     text-align: center;
@@ -88,7 +86,7 @@ a:hover {
     background-color: #B5EAD7;
 }
 
-/* Body */
+/* Body main */
 .hbd {
     display: flex;
     align-items: center;
@@ -111,8 +109,162 @@ a:hover {
     color: white;
     font-size: 20px;
     font-style: italic;
+    font-family: 'Lato', sans-serif;
+}
+.upi5 {
+    max-height: 450px;
+    position:fixed;
+    bottom: 0;
+    left: 77%;
 }
 
+/* Body Ambition */
+.amb-title {
+    text-align: center;
+    padding: 1rem;
+    padding-top: 3rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
+    border-radius: 10px;
+}
+.amb-title h1 {
+    color: white;
+    font-size: 5rem;
+}
+.amb {
+    text-align: justify;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.amb img {
+    width: 400px;
+    height: 320px;
+    margin-bottom: 1rem;
+}
+.skincare {
+    align-items: center;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px;
+}
+.veggie {
+    align-items: center;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px;
+}
+.gender {
+    align-items: center;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px;
+}
+.amb p {
+    margin: auto;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+}
+
+/* Body Bunga Harapan */
+.bunga {
+    text-align: justify;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.bunga-box {
+    padding: 10px ;
+    border: 5px solid #c5a6ff ;
+}
+.bunga-pics img{
+    max-height: 350px;
+}
+.bunga-p {
+    margin-top: 4rem;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+}
+.mas1 {
+    max-height: 300px;
+    position:fixed;
+    bottom: 0;
+    left: 85%;
+}
+
+/* Body Reflect-back */
+.refback-boxx {
+    margin-left: 450px;
+    margin-right: 450px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 15px 15px;
+    grid-template-areas: ". PIX-1 PIX-2 ." ". PIX-1 NOTES ." ". . . .";
+}
+.PIX-1 { grid-area: PIX-1; }
+.PIX-1 img {
+    margin-top: 20px;
+    max-height: 800px;
+}
+.PIX-2 { grid-area: PIX-2; }
+.PIX-2 img {
+    margin-top: 20px;
+    max-width: 470px;
+}
+.NOTES { grid-area: NOTES; }
+.NOTES {
+    text-align: justify;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+.NOTES h3 {
+    color: rgb(75, 75, 75);
+    font-weight: bold;
+}
+.p1 {
+    color: rgb(75, 75, 75);
+    font-size: 25px;
+}
+.mas5 {
+    max-height: 500px;
+    position:fixed;
+    bottom: 0;
+    left: 84%;
+}
+.mas10 {
+    max-height: 500px;
+    position:fixed;
+    bottom: 0;
+    left: -5%;
+}
+
+.tracking-in-expand-fwd{-webkit-animation:tracking-in-expand-fwd .8s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-expand-fwd .8s cubic-bezier(.215,.61,.355,1.000) both}
+@-webkit-keyframes tracking-in-expand-fwd{0%{letter-spacing:-.5em;-webkit-transform:translateZ(-700px);transform:translateZ(-700px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}@keyframes tracking-in-expand-fwd{0%{letter-spacing:-.5em;-webkit-transform:translateZ(-700px);transform:translateZ(-700px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}
 .tracking-in-contract-bck-bottom{-webkit-animation:tracking-in-contract-bck-bottom 1s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-contract-bck-bottom 1s cubic-bezier(.215,.61,.355,1.000) both}
 @-webkit-keyframes tracking-in-contract-bck-bottom{0%{letter-spacing:1em;-webkit-transform:translateZ(400px) translateY(300px);transform:translateZ(400px) translateY(300px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0) translateY(0);transform:translateZ(0) translateY(0);opacity:1}}@keyframes tracking-in-contract-bck-bottom{0%{letter-spacing:1em;-webkit-transform:translateZ(400px) translateY(300px);transform:translateZ(400px) translateY(300px);opacity:0}40%{opacity:.6}100%{-webkit-transform:translateZ(0) translateY(0);transform:translateZ(0) translateY(0);opacity:1}}
 
@@ -124,12 +276,12 @@ body::-webkit-scrollbar {
     background: black;
     }
     body::-webkit-scrollbar-thumb {
-    background: linear-gradient(to top, #ff5664, #000000);
+    background: linear-gradient(to top, #FF9AA2, #000000);
     }
 
 /* Footer */
 .footerbox {
-    position: relative;
+    position: sticky;
     min-height: 10vh;
 }
 footer {
