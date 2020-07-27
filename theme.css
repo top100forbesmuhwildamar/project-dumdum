@@ -151,8 +151,8 @@ a:hover {
     justify-content: space-evenly;
 }
 .amb img {
-    width: 400px;
-    height: 320px;
+    width: 340px;
+    height: 270px;
     margin-bottom: 1rem;
 }
 .skincare {
@@ -201,7 +201,7 @@ a:hover {
     border: 5px solid #c5a6ff ;
 }
 .bunga-pics img{
-    max-height: 350px;
+    max-height: 280px;
 }
 .bunga-p {
     margin-top: 4rem;
@@ -223,31 +223,31 @@ a:hover {
 
 /* Body Reflect-back */
 .refback-boxx {
-    margin-left: 450px;
-    margin-right: 450px;
+    align-content: center;
     align-items: center;
     display: flex;
     justify-content: space-evenly;
 }
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
     gap: 15px 15px;
     grid-template-areas: ". PIX-1 PIX-2 ." ". PIX-1 NOTES ." ". . . .";
 }
 .PIX-1 { grid-area: PIX-1; }
 .PIX-1 img {
     margin-top: 20px;
-    max-height: 800px;
+    max-height: 700px;
 }
 .PIX-2 { grid-area: PIX-2; }
 .PIX-2 img {
     margin-top: 20px;
-    max-width: 470px;
+    max-width: 400px;
 }
 .NOTES { grid-area: NOTES; }
 .NOTES {
+    width: 400px;
     text-align: justify;
     color: white;
     font-style: italic;
